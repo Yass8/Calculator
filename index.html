@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bloc">
+        <div class="entete">
+            <p>Calculator</p><hr>
+            <input type="text" id="resultat">
+            <button onClick="cancel()" class="btn-color">C</button>
+        </div>
+        <div class="btns">
+            <button onClick="valeur('(')">(</button>
+            <button onClick="valeur(')')">)</button>
+            <button onClick="valeur('carre')">x²</button>
+            <button onClick="del()" class="btn-color">Del</button><br>
+            <button onClick="valeur(7)">7</button>
+            <button onClick="valeur(8)">8</button>
+            <button onClick="valeur(9)">9</button>
+            <button onClick="valeur('/')" class="btn-operation">/</button><br>
+            <button onClick="valeur(4)">4</button>
+            <button onClick="valeur(5)">5</button>
+            <button onClick="valeur(6)">6</button>
+            <button onClick="valeur('-')" class="btn-operation">-</button><br>
+            <button onClick="valeur(1)">1</button>
+            <button onClick="valeur(2)">2</button>
+            <button onClick="valeur(3)">3</button>
+            <button onClick="valeur('+')" class="btn-operation">+</button><br>
+            <button onClick="valeur('.')">.</button>
+            <button onClick="valeur(0)">0</button>
+            <button onClick="valeur('*')" class="btn-operation">*</button>
+            <button onClick="calculer()" class="btn-egal">=</button><br>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body{
+    background: fixed;
+    background-color: rgb(39, 166, 188);
+    font-size: large;
+    font-family: poppins;
+    
+}
+button{
+    font-size: 18px;
+    border: none;
+}
+button:hover{
+    color: rgb(29, 81, 70);
+    background: rgb(109, 235, 241);
+    box-shadow: 2px 3px #8888;
+}
+.bloc{
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 140px;
+    position: relative;
+    background: rgb(27, 122, 154);
+    width: 430px;
+    padding-top: 7px;
+    box-shadow: 1px 1px 1px 1px #8888;
+}
+.entete{
+    display: block;
+    margin: 10px;
+    /* margin: ; */
+}
+
+.btns{
+    padding: 7px;
+}
+.btns button{
+    margin-bottom: 7px;
+    height: 60px;
+    width: 100px;
+}
+.btn-color{
+    background: rgb(240, 158, 158);
+    border: 1px solid rgb(27, 122, 154);
+}
+.entete button{
+    height: 60px;
+    width: 100px;
+}
+.entete input{
+    height: 50px;
+    width: 297px;
+    font-size: 20px;
+}
+.btn-operation{
+    background: rgb(112, 194, 232);
+    border: none;
+}
+p{
+    text-align: center;
+    color: whitesmoke;
+    
+}
+.btn-egal{
+    background: palegreen;
+}
